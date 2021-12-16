@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.onlyu</groupId>
+        <artifactId>some-servlet-shit</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <groupId>com.onlyu</groupId>
+    <artifactId>oauth2-demo-01</artifactId>
+    <version>1.0</version>
+    <packaging>war</packaging>
+    <name>oauth2-demo-01</name>
+    <description>OAuth2 Servlet Demo 01</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+</project>
