@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>some-servlet-shit</artifactId>
+        <groupId>com.onlyu</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>servlet-demo-01</artifactId>
+    <packaging>war</packaging>
+    <name>servlet-demo-01</name>
+    <description>Servlet Security Demo 01</description>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.onlyu</groupId>
+            <artifactId>servlet-base-demo-00</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
