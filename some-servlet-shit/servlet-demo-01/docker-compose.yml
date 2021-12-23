@@ -1,0 +1,33 @@
+# docker-compose --project-name secshit up -d
+# docker-compose --project-name secshit down
+version: '3.8'
+
+# 172.16.0.1 - gateway
+networks:
+  subnet01:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.16.0.0/16
+
+services:
+
+  servlet-demo-01-1:
+    container_name: servlet-demo-01-v1.0
+    image: servlet-demo-01:1.0
+    restart: always
+    ports:
+      - 8080:8080
+    networks:
+      subnet01:
+        ipv4_address: 172.16.0.2
+
+  servlet-demo-01-2:
+    container_name: servlet-demo-01-v1.1
+    image: servlet-demo-01:1.1
+    restart: always
+    ports:
+      - 8081:8080
+    networks:
+      subnet01:
+        ipv4_address: 172.16.0.3

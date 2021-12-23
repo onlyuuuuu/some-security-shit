@@ -9,7 +9,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = {"/v1/demo2"})
+@WebServlet(urlPatterns = {"/v1/demo/2"})
 public class SimpleXmlServlet extends AbstractHttpServlet<Output> {
 
     @Override

@@ -9,7 +9,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = {"/v1/demo1"})
+@WebServlet(urlPatterns = {"/v1/demo/1"})
 public class SimpleJsonServlet extends AbstractHttpServlet<Output> {
 
     @Override
